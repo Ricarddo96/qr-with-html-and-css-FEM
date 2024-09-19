@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.div-principal {
+  width: 90%;
+  max-width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 5%;
+  box-shadow: 10px 10px 15px hsl(216, 15%, 48%);
+}
+.div-principal img {
+  width: 100%;
+  padding: 15px;
+  border-radius: 10%;
+}
+.div-principal h3 {
+  text-align: center;
+  padding: 10px;
+}
+.div-principal p {
+  text-align: center;
+  padding: 10px;
+  color: hsl(216, 15%, 48%);
+}
